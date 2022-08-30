@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(18, 18, 128);
+    color: white;
+    min-height: 100vh;
+}
+header{
+    font-size: 20px;
+}
+header,form{
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form input , form button{
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    background: white;
+}
+form button{
+    color: black;
+    background: white;
+    cursor: pointer;
+}
+form button:hover{
+    color: white;
+    background: black;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.list{
+    min-width: 30%;
+    list-style: none;
+}
+.task{
+    margin: 5px;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.task .taskitem{
+    flex: 1;
+    font-size: 22px;
+}
+
+.task .taskitem1{
+    flex: 1;
+    font-size: 18px;
+}
+.edit{
+    background: green ;
+    color: white;
+    border: none;
+    padding: 20px;
+    cursor: pointer;
+    font-size: 15px;
+}
+.delete{
+    background: red ;
+    color: white;
+    border: none;
+    padding: 20px;
+    cursor: pointer;
+    font-size: 15px;
+}
+.delete:hover{
+    background: black ;
+}
+.edit:hover{
+    background: black ;
+}
+h2{
+    display: flex;
+   margin-left: 36%;
+}
+.fa-trash-can{
+    pointer-events: none;
+}
+.fa-edit{
+    pointer-events: none;
+}
+
